@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		15A99AAE2817374C00BED189 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A99AAD2817374C00BED189 /* main.cpp */; };
+		15A99AB52817424600BED189 /* Ship_C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A99AB42817424600BED189 /* Ship_C.cpp */; };
+		15A99AB92817426100BED189 /* CruiseShip_C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A99AB82817426100BED189 /* CruiseShip_C.cpp */; };
+		15A99ABC2817427100BED189 /* Yacht_C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A99ABB2817427100BED189 /* Yacht_C.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		15A99AAA2817374C00BED189 /* Inheritence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Inheritence; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A99AAD2817374C00BED189 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		15A99AB42817424600BED189 /* Ship_C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ship_C.cpp; sourceTree = "<group>"; };
+		15A99AB62817425100BED189 /* Ship_C.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ship_C.hpp; sourceTree = "<group>"; };
+		15A99AB72817425900BED189 /* CruiseShip_C.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CruiseShip_C.hpp; sourceTree = "<group>"; };
+		15A99AB82817426100BED189 /* CruiseShip_C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CruiseShip_C.cpp; sourceTree = "<group>"; };
+		15A99ABA2817426600BED189 /* Yacht_C.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Yacht_C.hpp; sourceTree = "<group>"; };
+		15A99ABB2817427100BED189 /* Yacht_C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Yacht_C.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				15A99AAD2817374C00BED189 /* main.cpp */,
+				15A99AB42817424600BED189 /* Ship_C.cpp */,
+				15A99AB62817425100BED189 /* Ship_C.hpp */,
+				15A99AB72817425900BED189 /* CruiseShip_C.hpp */,
+				15A99AB82817426100BED189 /* CruiseShip_C.cpp */,
+				15A99ABA2817426600BED189 /* Yacht_C.hpp */,
+				15A99ABB2817427100BED189 /* Yacht_C.cpp */,
 			);
 			path = Inheritence;
 			sourceTree = "<group>";
@@ -120,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				15A99AAE2817374C00BED189 /* main.cpp in Sources */,
+				15A99AB92817426100BED189 /* CruiseShip_C.cpp in Sources */,
+				15A99AB52817424600BED189 /* Ship_C.cpp in Sources */,
+				15A99ABC2817427100BED189 /* Yacht_C.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
